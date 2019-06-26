@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nor{
+    width: 100%;;
+    height: auto;
+}
+.mob{
+    display: none;
+}
+@media (max-width: 480px){
+    .nor{
+        display: none;
+    }
+    .mob{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
